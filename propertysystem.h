@@ -1,0 +1,14 @@
+//
+// Created by fernando on 08/03/19.
+//
+
+#ifndef PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H
+#define PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H
+
+
+class propertysystem {
+
+};
+
+
+#endif //PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H

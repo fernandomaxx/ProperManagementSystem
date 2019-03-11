@@ -1,0 +1,14 @@
+//
+// Created by fernando on 08/03/19.
+//
+
+#ifndef PROPERMANAGEMENTSYSTEM_APARTMENT_H
+#define PROPERMANAGEMENTSYSTEM_APARTMENT_H
+
+
+class apartment {
+
+};
+
+
+#endif //PROPERMANAGEMENTSYSTEM_APARTMENT_H

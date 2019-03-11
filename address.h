@@ -1,0 +1,14 @@
+//
+// Created by fernando on 08/03/19.
+//
+
+#ifndef PROPERMANAGEMENTSYSTEM_ADDRESS_H
+#define PROPERMANAGEMENTSYSTEM_ADDRESS_H
+
+
+class address {
+
+};
+
+
+#endif //PROPERMANAGEMENTSYSTEM_ADDRESS_H
