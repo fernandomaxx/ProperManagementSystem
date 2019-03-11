@@ -1,5 +1,9 @@
-//
-// Created by fernando on 08/03/19.
-//
-
 #include "propertysystem.h"
+
+void PropertySystem::propertyRegister( Property property ) {
+
+}
+
+std::vector<Property> PropertySystem::getProperty( void ) {
+    return std::vector<Property>();
+}

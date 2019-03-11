@@ -1,14 +1,21 @@
-//
-// Created by fernando on 08/03/19.
-//
+#ifndef PROPERTYSYSTEM_H
+#define PROPERTYSYSTEM_H
 
-#ifndef PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H
-#define PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H
+#include "property.h"
 
+class PropertySystem
+{
+public:
 
-class propertysystem {
+    void propertyRegister( Property property );
+
+    std::vector< Property > getProperty( void );
+
+private:
+
+    std::vector< Property* > property_list;
 
 };
 
 
-#endif //PROPERMANAGEMENTSYSTEM_PROPERTYSYSTEM_H
+#endif /* PROPERTYSYSTEM_H */

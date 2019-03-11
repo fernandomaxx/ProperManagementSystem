@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ProperManagementSystem.dir/address.cpp.o CMakeFiles/ProperManagementSystem.dir/apartment.cpp.o CMakeFiles/ProperManagementSystem.dir/house.cpp.o CMakeFiles/ProperManagementSystem.dir/land.cpp.o CMakeFiles/ProperManagementSystem.dir/property.cpp.o CMakeFiles/ProperManagementSystem.dir/propertysystem.cpp.o  -o ProperManagementSystem 

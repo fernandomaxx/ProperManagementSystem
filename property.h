@@ -1,14 +1,43 @@
-//
-// Created by fernando on 08/03/19.
-//
+#ifndef PROPERTY_H
+#define PROPERTY_H
+#define RENT 0
+#define SELL 1
 
-#ifndef PROPERMANAGEMENTSYSTEM_PROPERTY_H
-#define PROPERMANAGEMENTSYSTEM_PROPERTY_H
+#include <iostream>
+#include <string>
+#include <vector>
 
+#include "address.h"
 
-class property {
+class Property
+{
+public:
+
+    Property( double price,
+              int type_offer,
+              const Address address);
+
+    double getPrice( void ) const;
+
+    void setPrice( double price );
+
+    int getTypeOffer( void ) const;
+
+    void setTypeOffer( int type_offer );
+
+    const Address &getAddress( void ) const;
+
+    void setAddress( const Address &address );
+
+    virtual std::string description( void );
+
+private:
+
+    double price;
+    int type_offer;
+    Address address;
 
 };
 
 
-#endif //PROPERMANAGEMENTSYSTEM_PROPERTY_H
+#endif /* PROPERTY_H */

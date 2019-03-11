@@ -1,14 +1,22 @@
-//
-// Created by fernando on 08/03/19.
-//
+#ifndef LAND_H
+#define LAND_H
 
-#ifndef PROPERMANAGEMENTSYSTEM_LAND_H
-#define PROPERMANAGEMENTSYSTEM_LAND_H
+#include "property.h"
 
+class Land : public Property
+{
+public:
 
-class land {
+    int getAreaLand( void ) const;
 
+    void setAreaLand( int area_land );
+
+    std::string description( void ) override;
+
+private:
+
+    int area_land;
 };
 
 
-#endif //PROPERMANAGEMENTSYSTEM_LAND_H
+#endif /* LAND_H */
